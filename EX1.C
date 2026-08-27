@@ -6,7 +6,8 @@
    float nomeFuncionario;
    float  salarioBruto , valordoimposto;
    float salarioLiquido , valorEmprestimo= 0.0;
-
+   float salariofinal;
+   
     printf("\nDigite o nome do funcionario");
     scanf ("%5", &nomeFuncionario);
 
@@ -34,7 +35,14 @@
 
     }
 
-
+    printf("\n--- resultado----/n");
+    printf("funcionario: %\n", nome);
+    printf("salario bruto: R$ % 2.f\n",salarioBruto);
+    printf("valor Impostos :R$ % 2.F/n",valordoimposto);
+    printf("salario Liquido : R$ "salarioLiquido);
+    printf("valor Eprestimo:R$" valorEmprestimo);
+    printf("salario final : R$" salariofinal);
+    
 
          return 0; 
     
